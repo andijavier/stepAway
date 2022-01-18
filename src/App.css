@@ -9,19 +9,48 @@
 .stepAway {
   font-family: 'Comforter Brush', cursive;
   font-size: 80px;
+  cursor: pointer;
+  margin: 8vh ;
 }
 
 .seeYou {
   font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 4vh ;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  cursor: pointer;
+}
+
+.save {
+  color: #ffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 5px;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 90vw;
+  margin-bottom: 80vh;
+}
+
+.save:hover {
+  background-color: #5f2cc5;
+  color: #3547e6;
+}
+
+.input {
+  background: transparent;
+  color: #FFFF;
+  border: transparent;
+  text-align: center;
 }
 
 .App-header {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
