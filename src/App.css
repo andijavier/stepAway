@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-image: url("https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy-downsized-large.gif");
+  background-image: url("./smokeBackground.gif");
   background-size: cover;
 }
 
